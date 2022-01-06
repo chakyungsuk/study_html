@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<htm1 lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=dievice-width, initiol-scale=1.0">
+<title>Tony(차경석)</title>
+</head>
+	<body>
+                   
+       	<form action="./formResult.html" method="post" id="form" name="form" enctype="multipart.form-data">
+       			
+       			<input type="search" id="search" name="search">
+       			<input type="url" id="url" name="rul">
+       			<input type="email" id="email" name="email">
+       			<input type="tel" id="tel" name="tel">
+       
+       
+				<br><input type="submit" value="제출">    
+		</form>       
+         
+          
+            <script type="text/javascript">
+            
+        	function here() {
+        		if(document.getElementById("password2"). valu != document.getElementById("password3").value) {
+        			alert("패스워드 일치 하지 않음!");
+        			document.getElementById("password2").value = "";
+        			document.getElementById("password3").value = "";
+        			document.getElementById("password2").focus();
+        			return false;
+        		}else {
+        			 alert("둘다 동일");
+        			 
+        		}
+        			
+        		document.getElementById("form").submit();
+        	}
+        </script>       
+                   
+	</body>
+</htm1>
